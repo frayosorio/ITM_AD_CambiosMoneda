@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "apiCambiosMoneda.Presentaci
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{CECE90FC-15F0-424F-A962-011A1E257BBB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiCambiosMoneda.Test", "apiCambiosMoneda.Test\apiCambiosMoneda.Test.csproj", "{99A6DCEA-0DBD-4687-BC87-4B93F8FD40F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{6D04DEF3-781E-40A1-B7C2-2CCB30C8F522}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D04DEF3-781E-40A1-B7C2-2CCB30C8F522}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D04DEF3-781E-40A1-B7C2-2CCB30C8F522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99A6DCEA-0DBD-4687-BC87-4B93F8FD40F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A6DCEA-0DBD-4687-BC87-4B93F8FD40F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A6DCEA-0DBD-4687-BC87-4B93F8FD40F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A6DCEA-0DBD-4687-BC87-4B93F8FD40F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
