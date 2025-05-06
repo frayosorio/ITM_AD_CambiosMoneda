@@ -1,5 +1,6 @@
 ﻿using apiCambiosMoneda.Core.Interfaces.Repositorios;
 using apiCambiosMoneda.Core.Interfaces.Servicios;
+using apiCambiosMoneda.Dominio.DTOs;
 using apiCambiosMoneda.Dominio.Entidades;
 
 namespace apiCambiosMoneda.Aplicacion.Servicios
@@ -85,6 +86,63 @@ namespace apiCambiosMoneda.Aplicacion.Servicios
             return await repositorio.ObtenerPaisesPorMoneda(IdMoneda);
         }
 
+
+        /********** ANALISIS **********/
+
+        public async Task<IEnumerable<AnalisisInversionDTO>> AnalizarInversionDolar(string siglaMoneda, DateTime desde, DateTime hasta, double umbralPorcentual = 1.0)
+        {
+            var resultado = new List<AnalisisInversionDTO>();
+
+            var moneda = (await repositorio.Buscar(1, siglaMoneda)).FirstOrDefault();
+            if (moneda == null)
+            {
+                throw new Exception($"Moneda con sigla '{siglaMoneda}' no encontrada");
+            }
+
+            var cambios = (await repositorio.ObtenerHistorialCambios(moneda.Id, desde, hasta))
+                            .OrderBy(c => c.Fecha)
+                            .ToList();
+
+            String tendenciaActual = null;
+            DateTime? fechaInicio = null;
+
+            for (int i = 1; i < cambios.Count; i++)
+            {
+                var anterior = cambios[i - 1];
+                var actual = cambios[i];
+
+                double porcentajaVariacion = Math.Abs(actual.Cambio - anterior.Cambio) / anterior.Cambio * 100;
+
+                string nuevaTendencia = porcentajaVariacion >= umbralPorcentual ?
+                    (actual.Cambio > anterior.Cambio ? "Vender USD" : "Comprar USD") : tendenciaActual ?? "** sin cambio **";
+
+
+                if (nuevaTendencia != tendenciaActual)
+                {
+                    if (tendenciaActual != null && fechaInicio.HasValue)
+                    {
+                        resultado.Add(new AnalisisInversionDTO
+                        {
+                            moneda = $"{moneda.Sigla} - {moneda.Nombre}",
+                            fechaDesde = fechaInicio.Value,
+                            fechaHasta = anterior.Fecha,
+                            recomendacion = tendenciaActual
+                        });
+                    }
+                    fechaInicio = anterior.Fecha;
+                    tendenciaActual = nuevaTendencia;
+                }
+            }
+            resultado.Add(new AnalisisInversionDTO
+            {
+                moneda = $"{moneda.Sigla} - {moneda.Nombre}",
+                fechaDesde = fechaInicio.Value,
+                fechaHasta = cambios.Last().Fecha,
+                recomendacion = tendenciaActual
+            });
+
+            return resultado;
+        }
 
     }
 }

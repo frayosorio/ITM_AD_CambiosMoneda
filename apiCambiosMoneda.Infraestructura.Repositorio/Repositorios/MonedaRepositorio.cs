@@ -118,7 +118,7 @@ namespace apiCambiosMoneda.Infraestructura.Repositorio.Repositorios
         public async Task<IEnumerable<CambioMoneda>> ObtenerHistorialCambios(int IdMoneda, DateTime Desde, DateTime Hasta)
         {
             return await context.CambiosMoneda
-                                   .Where(cm => cm.IdMoneda == IdMoneda && Desde >= cm.Fecha && cm.Fecha <= Hasta)
+                                   .Where(cm => cm.IdMoneda == IdMoneda && Desde <= cm.Fecha && cm.Fecha <= Hasta)
                                    .Include(cm => cm.Moneda) // Incluye la Moneda relacionado con el Cambio
                                    .ToArrayAsync();
         }

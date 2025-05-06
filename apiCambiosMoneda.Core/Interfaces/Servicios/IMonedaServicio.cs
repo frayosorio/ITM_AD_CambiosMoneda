@@ -1,4 +1,5 @@
-﻿using apiCambiosMoneda.Dominio.Entidades;
+﻿using apiCambiosMoneda.Dominio.DTOs;
+using apiCambiosMoneda.Dominio.Entidades;
 
 namespace apiCambiosMoneda.Core.Interfaces.Servicios
 {
@@ -35,5 +36,9 @@ namespace apiCambiosMoneda.Core.Interfaces.Servicios
         Task<CambioMoneda> ObtenerCambioActual(int idMoneda);
 
         Task<IEnumerable<Pais>> ObtenerPaisesPorMoneda(int idMoneda);
+
+        /********** ANALISIS **********/
+
+        Task<IEnumerable<AnalisisInversionDTO>> AnalizarInversionDolar(String siglaMoneda, DateTime desde, DateTime hasta, double umbralPorcentual = 1.0);
     }
 }

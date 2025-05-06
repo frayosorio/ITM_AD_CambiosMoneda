@@ -1,6 +1,7 @@
 ﻿using apiCambiosMoneda.Dominio.Entidades;
 using apiCambiosMoneda.Core.Interfaces.Servicios;
 using Microsoft.AspNetCore.Mvc;
+using apiCambiosMoneda.Dominio.DTOs;
 
 namespace apiCambiosMoneda.Presentacion.Controllers
 {
@@ -102,6 +103,13 @@ namespace apiCambiosMoneda.Presentacion.Controllers
         public async Task<ActionResult<IEnumerable<Pais>>> ObtenerPaisesPorMoneda(int IdMoneda)
         {
             return Ok(await servicio.ObtenerPaisesPorMoneda(IdMoneda));
+        }
+
+        /********** ANALISIS **********/
+        [HttpGet("analisis/{siglaMoneda}/{desde}/{hasta}")]
+        public async Task<IEnumerable<AnalisisInversionDTO>> AnalizarInversionDolar(string siglaMoneda, DateTime desde, DateTime hasta)
+        {
+            return await servicio.AnalizarInversionDolar(siglaMoneda, desde, hasta);
         }
 
     }

@@ -9,6 +9,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{CA0FB3FA-B29D-4FE7-A046-BE876EEE45C0}|apiCambiosMoneda.Aplicacion\\apiCambiosMoneda.Aplicacion.csproj|d:\\catedra\\itm\\administracion de sistemas\\cursos\\2025-1\\ejercicios\\apicambiosmoneda\\apicambiosmoneda.aplicacion\\servicios\\monedaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA0FB3FA-B29D-4FE7-A046-BE876EEE45C0}|apiCambiosMoneda.Aplicacion\\apiCambiosMoneda.Aplicacion.csproj|solutionrelative:apicambiosmoneda.aplicacion\\servicios\\monedaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4536664-8C3C-43D3-9FCD-0514F39DAFAB}|apiCambiosMoneda.Dominio\\apiCambiosMoneda.Dominio.csproj|d:\\catedra\\itm\\administracion de sistemas\\cursos\\2025-1\\ejercicios\\apicambiosmoneda\\apicambiosmoneda.dominio\\dtos\\analisisinversiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4536664-8C3C-43D3-9FCD-0514F39DAFAB}|apiCambiosMoneda.Dominio\\apiCambiosMoneda.Dominio.csproj|solutionrelative:apicambiosmoneda.dominio\\dtos\\analisisinversiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{370B871B-A211-4CF4-83BF-599C08F92F06}|apiCambiosMoneda.Infraestructura.Repositorio\\apiCambiosMoneda.Infraestructura.Repositorio.csproj|d:\\catedra\\itm\\administracion de sistemas\\cursos\\2025-1\\ejercicios\\apicambiosmoneda\\apicambiosmoneda.infraestructura.repositorio\\repositorios\\monedarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{370B871B-A211-4CF4-83BF-599C08F92F06}|apiCambiosMoneda.Infraestructura.Repositorio\\apiCambiosMoneda.Infraestructura.Repositorio.csproj|solutionrelative:apicambiosmoneda.infraestructura.repositorio\\repositorios\\monedarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D04DEF3-781E-40A1-B7C2-2CCB30C8F522}|apiCambiosMoneda.Presentacion\\apiCambiosMoneda.Presentacion.csproj|d:\\catedra\\itm\\administracion de sistemas\\cursos\\2025-1\\ejercicios\\apicambiosmoneda\\apicambiosmoneda.presentacion\\controllers\\monedacontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D04DEF3-781E-40A1-B7C2-2CCB30C8F522}|apiCambiosMoneda.Presentacion\\apiCambiosMoneda.Presentacion.csproj|solutionrelative:apicambiosmoneda.presentacion\\controllers\\monedacontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF80B52-61E9-4C6D-AAE7-7E2B7AC4BFC1}|apiCambiosMoneda.Core\\apiCambiosMoneda.Core.csproj|d:\\catedra\\itm\\administracion de sistemas\\cursos\\2025-1\\ejercicios\\apicambiosmoneda\\apicambiosmoneda.core\\interfaces\\servicios\\imonedaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF80B52-61E9-4C6D-AAE7-7E2B7AC4BFC1}|apiCambiosMoneda.Core\\apiCambiosMoneda.Core.csproj|solutionrelative:apicambiosmoneda.core\\interfaces\\servicios\\imonedaservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,16 +42,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MonedaServicioTest.cs",
-              "DocumentMoniker": "D:\\Catedra\\ITM\\Administracion de Sistemas\\Cursos\\2025-1\\Ejercicios\\apiCambiosMoneda\\apiCambiosMoneda.Test\\MonedaServicioTest.cs",
-              "RelativeDocumentMoniker": "apiCambiosMoneda.Test\\MonedaServicioTest.cs",
-              "ToolTip": "D:\\Catedra\\ITM\\Administracion de Sistemas\\Cursos\\2025-1\\Ejercicios\\apiCambiosMoneda\\apiCambiosMoneda.Test\\MonedaServicioTest.cs",
-              "RelativeToolTip": "apiCambiosMoneda.Test\\MonedaServicioTest.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwCQAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "MonedaRepositorio.cs",
+              "DocumentMoniker": "D:\\Catedra\\ITM\\Administracion de Sistemas\\Cursos\\2025-1\\Ejercicios\\apiCambiosMoneda\\apiCambiosMoneda.Infraestructura.Repositorio\\Repositorios\\MonedaRepositorio.cs",
+              "RelativeDocumentMoniker": "apiCambiosMoneda.Infraestructura.Repositorio\\Repositorios\\MonedaRepositorio.cs",
+              "ToolTip": "D:\\Catedra\\ITM\\Administracion de Sistemas\\Cursos\\2025-1\\Ejercicios\\apiCambiosMoneda\\apiCambiosMoneda.Infraestructura.Repositorio\\Repositorios\\MonedaRepositorio.cs",
+              "RelativeToolTip": "apiCambiosMoneda.Infraestructura.Repositorio\\Repositorios\\MonedaRepositorio.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAiwG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T00:09:31.975Z",
+              "WhenOpened": "2025-05-03T15:50:47.741Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MonedaControlador.cs",
+              "DocumentMoniker": "D:\\Catedra\\ITM\\Administracion de Sistemas\\Cursos\\2025-1\\Ejercicios\\apiCambiosMoneda\\apiCambiosMoneda.Presentacion\\Controllers\\MonedaControlador.cs",
+              "RelativeDocumentMoniker": "apiCambiosMoneda.Presentacion\\Controllers\\MonedaControlador.cs",
+              "ToolTip": "D:\\Catedra\\ITM\\Administracion de Sistemas\\Cursos\\2025-1\\Ejercicios\\apiCambiosMoneda\\apiCambiosMoneda.Presentacion\\Controllers\\MonedaControlador.cs",
+              "RelativeToolTip": "apiCambiosMoneda.Presentacion\\Controllers\\MonedaControlador.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAADwv2sAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T16:16:38.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AnalisisInversionDTO.cs",
+              "DocumentMoniker": "D:\\Catedra\\ITM\\Administracion de Sistemas\\Cursos\\2025-1\\Ejercicios\\apiCambiosMoneda\\apiCambiosMoneda.Dominio\\DTOs\\AnalisisInversionDTO.cs",
+              "RelativeDocumentMoniker": "apiCambiosMoneda.Dominio\\DTOs\\AnalisisInversionDTO.cs",
+              "ToolTip": "D:\\Catedra\\ITM\\Administracion de Sistemas\\Cursos\\2025-1\\Ejercicios\\apiCambiosMoneda\\apiCambiosMoneda.Dominio\\DTOs\\AnalisisInversionDTO.cs",
+              "RelativeToolTip": "apiCambiosMoneda.Dominio\\DTOs\\AnalisisInversionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T15:35:27.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IMonedaServicio.cs",
+              "DocumentMoniker": "D:\\Catedra\\ITM\\Administracion de Sistemas\\Cursos\\2025-1\\Ejercicios\\apiCambiosMoneda\\apiCambiosMoneda.Core\\Interfaces\\Servicios\\IMonedaServicio.cs",
+              "RelativeDocumentMoniker": "apiCambiosMoneda.Core\\Interfaces\\Servicios\\IMonedaServicio.cs",
+              "ToolTip": "D:\\Catedra\\ITM\\Administracion de Sistemas\\Cursos\\2025-1\\Ejercicios\\apiCambiosMoneda\\apiCambiosMoneda.Core\\Interfaces\\Servicios\\IMonedaServicio.cs",
+              "RelativeToolTip": "apiCambiosMoneda.Core\\Interfaces\\Servicios\\IMonedaServicio.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwCcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T15:33:03.504Z"
             },
             {
               "$type": "Document",
@@ -45,9 +98,22 @@
               "RelativeDocumentMoniker": "apiCambiosMoneda.Aplicacion\\Servicios\\MonedaServicio.cs",
               "ToolTip": "D:\\Catedra\\ITM\\Administracion de Sistemas\\Cursos\\2025-1\\Ejercicios\\apiCambiosMoneda\\apiCambiosMoneda.Aplicacion\\Servicios\\MonedaServicio.cs",
               "RelativeToolTip": "apiCambiosMoneda.Aplicacion\\Servicios\\MonedaServicio.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAkwE8AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAowIMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T00:07:08.837Z",
+              "WhenOpened": "2025-04-26T15:59:16.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MonedaServicioTest.cs",
+              "DocumentMoniker": "D:\\Catedra\\ITM\\Administracion de Sistemas\\Cursos\\2025-1\\Ejercicios\\apiCambiosMoneda\\apiCambiosMoneda.Test\\MonedaServicioTest.cs",
+              "RelativeDocumentMoniker": "apiCambiosMoneda.Test\\MonedaServicioTest.cs",
+              "ToolTip": "D:\\Catedra\\ITM\\Administracion de Sistemas\\Cursos\\2025-1\\Ejercicios\\apiCambiosMoneda\\apiCambiosMoneda.Test\\MonedaServicioTest.cs",
+              "RelativeToolTip": "apiCambiosMoneda.Test\\MonedaServicioTest.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAAANMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T15:55:00.226Z",
               "EditorCaption": ""
             }
           ]
