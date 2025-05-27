@@ -5,7 +5,7 @@ pipeline{
 		DOCKER_IMAGE='apicambiosmonedaitm:latest'
 		CONTAINER_NAME='dockerapicambiosmonedaitm'
 		APP_PORT='5235'
-		HOST_PORT='7080'
+		HOST_PORT='7081'
 		DOCKER_NETWORK='dockercambiosmonedaitm_red'
 	}
 
