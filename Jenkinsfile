@@ -12,7 +12,7 @@ pipeline{
 	stages{
 		stage('Clonar'){
 			steps{
-				gir url: 'https://github.com/frayosorio/ITM_AD_CambiosMoneda', branch: 'main'
+				git url: 'https://github.com/frayosorio/ITM_AD_CambiosMoneda', branch: 'main'
 			}
 		}
 
