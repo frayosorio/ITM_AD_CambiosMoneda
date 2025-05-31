@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Catedra\\ITM\\Administracion de Sistemas\\Cursos\\2025-1\\Ejercicios\\apiCambiosMoneda\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CECE90FC-15F0-424F-A962-011A1E257BBB}|Elementos de la soluci\u00F3n{CECE90FC-15F0-424F-A962-011A1E257BBB}|D:\\Catedra\\ITM\\Administracion de Sistemas\\Cursos\\2025-1\\Ejercicios\\apiCambiosMoneda\\Jenkinsfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CECE90FC-15F0-424F-A962-011A1E257BBB}|Elementos de la soluci\u00F3n{CECE90FC-15F0-424F-A962-011A1E257BBB}|solutionrelative:Jenkinsfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6D04DEF3-781E-40A1-B7C2-2CCB30C8F522}|apiCambiosMoneda.Presentacion\\apiCambiosMoneda.Presentacion.csproj|d:\\catedra\\itm\\administracion de sistemas\\cursos\\2025-1\\ejercicios\\apicambiosmoneda\\apicambiosmoneda.presentacion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6D04DEF3-781E-40A1-B7C2-2CCB30C8F522}|apiCambiosMoneda.Presentacion\\apiCambiosMoneda.Presentacion.csproj|solutionrelative:apicambiosmoneda.presentacion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CECE90FC-15F0-424F-A962-011A1E257BBB}|Elementos de la soluci\u00F3n{CECE90FC-15F0-424F-A962-011A1E257BBB}|D:\\Catedra\\ITM\\Administracion de Sistemas\\Cursos\\2025-1\\Ejercicios\\apiCambiosMoneda\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{CECE90FC-15F0-424F-A962-011A1E257BBB}|Elementos de la soluci\u00F3n{CECE90FC-15F0-424F-A962-011A1E257BBB}|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CECE90FC-15F0-424F-A962-011A1E257BBB}|Elementos de la soluci\u00F3n{CECE90FC-15F0-424F-A962-011A1E257BBB}|D:\\Catedra\\ITM\\Administracion de Sistemas\\Cursos\\2025-1\\Ejercicios\\apiCambiosMoneda\\Jenkinsfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{CECE90FC-15F0-424F-A962-011A1E257BBB}|Elementos de la soluci\u00F3n{CECE90FC-15F0-424F-A962-011A1E257BBB}|solutionrelative:Jenkinsfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,20 +30,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Catedra\\ITM\\Administracion de Sistemas\\Cursos\\2025-1\\Ejercicios\\apiCambiosMoneda\\apiCambiosMoneda.Presentacion\\appsettings.json",
               "RelativeDocumentMoniker": "apiCambiosMoneda.Presentacion\\appsettings.json",
               "ToolTip": "D:\\Catedra\\ITM\\Administracion de Sistemas\\Cursos\\2025-1\\Ejercicios\\apiCambiosMoneda\\apiCambiosMoneda.Presentacion\\appsettings.json",
               "RelativeToolTip": "apiCambiosMoneda.Presentacion\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-27T00:17:36.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "dockerfile",
               "DocumentMoniker": "D:\\Catedra\\ITM\\Administracion de Sistemas\\Cursos\\2025-1\\Ejercicios\\apiCambiosMoneda\\dockerfile",
               "RelativeDocumentMoniker": "dockerfile",
@@ -51,18 +51,17 @@
               "RelativeToolTip": "dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-27T00:12:43.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T00:12:43.753Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Jenkinsfile",
               "DocumentMoniker": "D:\\Catedra\\ITM\\Administracion de Sistemas\\Cursos\\2025-1\\Ejercicios\\apiCambiosMoneda\\Jenkinsfile",
               "RelativeDocumentMoniker": "Jenkinsfile",
               "ToolTip": "D:\\Catedra\\ITM\\Administracion de Sistemas\\Cursos\\2025-1\\Ejercicios\\apiCambiosMoneda\\Jenkinsfile",
               "RelativeToolTip": "Jenkinsfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-05-26T23:49:21.027Z",
               "EditorCaption": ""
